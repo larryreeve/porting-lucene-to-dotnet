@@ -1,0 +1,86 @@
+<VisualStudioProject>
+    <VISUALJSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{0FA431BD-7C54-46B0-B0E3-6E62B318A0CC}"
+    >
+        <Build>
+            <Settings
+                AssemblyKeyContainerName = ""
+                AssemblyName = "JSharpSearchFiles"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                OutputType = "Exe"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "JSharpSearchFiles"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DebugSymbols = "true"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                    AdditionalOptions = ""
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DebugSymbols = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "..\Release\"
+                    RegisterForComInterop = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                    AdditionalOptions = ""
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "vjslib"
+                    AssemblyName = "vjslib"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\vjslib.dll"
+                />
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+                <Reference
+                    Name = "Lucene12Library"
+                    AssemblyName = "Lucene12Library"
+                    HintPath = "..\Release\Lucene12Library.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "src\AssemblyInfo.jsl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\SearchFiles.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </VISUALJSHARP>
+</VisualStudioProject>
+

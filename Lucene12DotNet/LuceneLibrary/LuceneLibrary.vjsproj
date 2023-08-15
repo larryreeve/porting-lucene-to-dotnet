@@ -1,0 +1,640 @@
+<VisualStudioProject>
+    <VISUALJSHARP
+        ProjectType = "Local"
+        ProductVersion = "7.10.3077"
+        SchemaVersion = "2.0"
+        ProjectGuid = "{5D72C4EC-224D-43A3-AFC4-B1423043E1C8}"
+    >
+        <Build>
+            <Settings
+                AssemblyKeyContainerName = ""
+                AssemblyName = "Lucene12Library"
+                AssemblyOriginatorKeyFile = ""
+                DefaultClientScript = "JScript"
+                DefaultHTMLPageLayout = "Grid"
+                DefaultTargetSchema = "IE50"
+                OutputType = "Library"
+                PreBuildEvent = ""
+                PostBuildEvent = ""
+                RootNamespace = "Lucene12Library"
+                RunPostBuildEvent = "OnBuildSuccess"
+                StartupObject = ""
+            >
+                <Config
+                    Name = "Debug"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "DEBUG;TRACE"
+                    DebugSymbols = "true"
+                    NoWarn = ""
+                    Optimize = "false"
+                    OutputPath = "bin\Debug\"
+                    RegisterForComInterop = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                    AdditionalOptions = ""
+                />
+                <Config
+                    Name = "Release"
+                    BaseAddress = "285212672"
+                    ConfigurationOverrideFile = ""
+                    DefineConstants = "TRACE"
+                    DebugSymbols = "false"
+                    NoWarn = ""
+                    Optimize = "true"
+                    OutputPath = "bin\Release\"
+                    RegisterForComInterop = "false"
+                    TreatWarningsAsErrors = "false"
+                    WarningLevel = "4"
+                    AdditionalOptions = ""
+                />
+            </Settings>
+            <References>
+                <Reference
+                    Name = "vjslib"
+                    AssemblyName = "vjslib"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\vjslib.dll"
+                />
+                <Reference
+                    Name = "System"
+                    AssemblyName = "System"
+                    HintPath = "C:\WINNT\Microsoft.NET\Framework\v1.1.4322\System.dll"
+                />
+            </References>
+        </Build>
+        <Files>
+            <Include>
+                <File
+                    RelPath = "src\AssemblyInfo.jsl"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\manifest"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\Analyzer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\CharTokenizer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\LetterTokenizer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\LowerCaseFilter.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\LowerCaseTokenizer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\package.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\PorterStemFilter.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\PorterStemmer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\SimpleAnalyzer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\StopAnalyzer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\StopFilter.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\Token.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\TokenFilter.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\Tokenizer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\TokenStream.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\WhitespaceAnalyzer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\WhitespaceTokenizer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\standard\CharStream.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\standard\FastCharStream.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\standard\package.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\standard\ParseException.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\standard\StandardAnalyzer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\standard\StandardFilter.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\standard\StandardTokenizer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\standard\StandardTokenizer.jj"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\standard\StandardTokenizerConstants.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\standard\StandardTokenizerTokenManager.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\standard\Token.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\analysis\standard\TokenMgrError.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\document\DateField.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\document\Document.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\document\Field.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\document\package.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\DocumentWriter.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\FieldInfo.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\FieldInfos.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\FieldsReader.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\FieldsWriter.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\IndexReader.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\IndexWriter.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\package.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\SegmentInfo.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\SegmentInfos.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\SegmentMergeInfo.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\SegmentMergeQueue.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\SegmentMerger.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\SegmentReader.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\SegmentsReader.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\SegmentTermDocs.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\SegmentTermEnum.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\SegmentTermPositions.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\Term.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\TermDocs.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\TermEnum.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\TermInfo.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\TermInfosReader.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\TermInfosWriter.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\index\TermPositions.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\queryParser\CharStream.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\queryParser\FastCharStream.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\queryParser\MultiFieldQueryParser.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\queryParser\package.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\queryParser\ParseException.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\queryParser\QueryParser.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\queryParser\QueryParser.jj"
+                    BuildAction = "None"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\queryParser\QueryParserConstants.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\queryParser\QueryParserTokenManager.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\queryParser\Token.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\queryParser\TokenMgrError.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\BooleanClause.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\BooleanQuery.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\BooleanScorer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\DateFilter.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\ExactPhraseScorer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\Filter.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\FilteredTermEnum.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\FuzzyQuery.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\FuzzyTermEnum.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\HitCollector.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\HitQueue.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\Hits.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\IndexSearcher.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\MultiSearcher.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\MultiTermQuery.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\package.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\PhrasePositions.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\PhraseQuery.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\PhraseQueue.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\PhraseScorer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\PrefixQuery.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\Query.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\RangeQuery.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\ScoreDoc.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\Scorer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\Searcher.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\Similarity.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\SloppyPhraseScorer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\TermQuery.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\TermScorer.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\TopDocs.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\WildcardQuery.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\search\WildcardTermEnum.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\store\Directory.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\store\FSDirectory.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\store\InputStream.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\store\Lock.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\store\OutputStream.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\store\package.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\store\RAMDirectory.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\util\Arrays.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\util\BitVector.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\util\Constants.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\util\package.html"
+                    BuildAction = "Content"
+                />
+                <File
+                    RelPath = "src\org\apache\lucene\util\PriorityQueue.java"
+                    SubType = "Code"
+                    BuildAction = "Compile"
+                />
+            </Include>
+        </Files>
+    </VISUALJSHARP>
+</VisualStudioProject>
+

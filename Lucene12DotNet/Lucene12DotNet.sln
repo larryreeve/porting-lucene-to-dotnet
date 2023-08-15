@@ -1,0 +1,45 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{E6FDF86B-F3D1-11D4-8576-0002A516ECE8}") = "LuceneLibrary", "LuceneLibrary\LuceneLibrary.vjsproj", "{5D72C4EC-224D-43A3-AFC4-B1423043E1C8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{E6FDF86B-F3D1-11D4-8576-0002A516ECE8}") = "IndexFiles", "IndexFiles\IndexFiles.vjsproj", "{093DC181-9103-483C-9339-534A687024B8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{E6FDF86B-F3D1-11D4-8576-0002A516ECE8}") = "JSharpSearchFiles", "JSharpSearchFiles\JSharpSearchFiles.vjsproj", "{0FA431BD-7C54-46B0-B0E3-6E62B318A0CC}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CSharpSearchFiles", "CSharpSearchFiles\CSharpSearchFiles.csproj", "{F4CF2B24-D2B8-487D-B7E6-AC9C594C9FF3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{5D72C4EC-224D-43A3-AFC4-B1423043E1C8}.Debug.ActiveCfg = Debug|.NET
+		{5D72C4EC-224D-43A3-AFC4-B1423043E1C8}.Debug.Build.0 = Debug|.NET
+		{5D72C4EC-224D-43A3-AFC4-B1423043E1C8}.Release.ActiveCfg = Release|.NET
+		{5D72C4EC-224D-43A3-AFC4-B1423043E1C8}.Release.Build.0 = Release|.NET
+		{093DC181-9103-483C-9339-534A687024B8}.Debug.ActiveCfg = Debug|.NET
+		{093DC181-9103-483C-9339-534A687024B8}.Debug.Build.0 = Debug|.NET
+		{093DC181-9103-483C-9339-534A687024B8}.Release.ActiveCfg = Release|.NET
+		{093DC181-9103-483C-9339-534A687024B8}.Release.Build.0 = Release|.NET
+		{0FA431BD-7C54-46B0-B0E3-6E62B318A0CC}.Debug.ActiveCfg = Debug|.NET
+		{0FA431BD-7C54-46B0-B0E3-6E62B318A0CC}.Debug.Build.0 = Debug|.NET
+		{0FA431BD-7C54-46B0-B0E3-6E62B318A0CC}.Release.ActiveCfg = Release|.NET
+		{0FA431BD-7C54-46B0-B0E3-6E62B318A0CC}.Release.Build.0 = Release|.NET
+		{F4CF2B24-D2B8-487D-B7E6-AC9C594C9FF3}.Debug.ActiveCfg = Debug|.NET
+		{F4CF2B24-D2B8-487D-B7E6-AC9C594C9FF3}.Debug.Build.0 = Debug|.NET
+		{F4CF2B24-D2B8-487D-B7E6-AC9C594C9FF3}.Release.ActiveCfg = Release|.NET
+		{F4CF2B24-D2B8-487D-B7E6-AC9C594C9FF3}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
